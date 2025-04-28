@@ -5,8 +5,14 @@ async function fetchdata() {
   let giphyJson = await response.json();
   let arrPictures = giphyJson.data;
 
-  for (let index = 0; index < arrPictures.length; index++)
+  let container = document.getElementById("images");
+
+  for (let index = 0; index < arrPictures.length; index++) {
+    let img = document.createElement("img");
+    img.src = arrPictures[index].images.original.url;
+    container.append(img);
     console.log(arrPictures[index].images.original.url);
+  }
 }
 
 fetchdata();
