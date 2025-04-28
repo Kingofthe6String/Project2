@@ -1,3 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 25px;
+}
+
 #type {
   width: 50%;
   padding: 10px;
@@ -8,4 +17,8 @@
 #images img {
   margin: 10px;
   height: 250px;
+}
+
+body {
+  background-image: url("../Images/Dreamy_BG.jpg");
 }
