@@ -4,3 +4,8 @@
   margin: 4px auto;
   display: block;
 }
+
+#images img {
+  margin: 10px;
+  height: 250px;
+}
