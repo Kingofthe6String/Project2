@@ -15,8 +15,27 @@ html {
 }
 
 #images img {
-  margin: 10px;
+  margin: 15px;
   height: 250px;
+}
+
+#images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* This centers the images horizontally */
+  padding: 20px;
+}
+
+#Search {
+  margin: 0 auto;
+  text-align: center;
+  width: 100px;
+  padding: 5px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-style: dashed;
+  border-color: rgb(255, 255, 255);
+  border-width: 5px;
 }
 
 body {
